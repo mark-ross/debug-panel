@@ -2,7 +2,7 @@ package main
 
 import (
 	"bufio"
-	dbp "debug-panel"
+	dbp "github.com/mark-ross/debug-panel"
 	"os"
 	"time"
 )
