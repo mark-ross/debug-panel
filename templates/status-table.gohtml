@@ -1,0 +1,16 @@
+<table id="statusTable" class="paleBlueRows">
+    <thead>
+        <tr>
+            <th>Progress Flag</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{range .ProgressFlags}}
+        <tr>
+            <td>{{.Name}}</td>
+            <td>{{.CurrentStatus}}</td>
+        </tr>
+    {{end}}
+    </tbody>
+</table>
